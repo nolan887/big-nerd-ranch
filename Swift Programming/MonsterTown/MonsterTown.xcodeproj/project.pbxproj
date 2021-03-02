@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7709005211916B6005BCFE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7709004211916B6005BCFE4 /* AppDelegate.swift */; };
+		D7709007211916B6005BCFE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7709006211916B6005BCFE4 /* ViewController.swift */; };
+		D770900A211916B6005BCFE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7709008211916B6005BCFE4 /* Main.storyboard */; };
+		D770900C211916B7005BCFE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D770900B211916B7005BCFE4 /* Assets.xcassets */; };
+		D770900F211916B7005BCFE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D770900D211916B7005BCFE4 /* LaunchScreen.storyboard */; };
+		D770901A211916B7005BCFE4 /* MonsterTownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7709019211916B7005BCFE4 /* MonsterTownTests.swift */; };
+		D7709025211916B8005BCFE4 /* MonsterTownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7709024211916B8005BCFE4 /* MonsterTownUITests.swift */; };
+		D77090332119173A005BCFE4 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77090322119173A005BCFE4 /* Town.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7709016211916B7005BCFE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7708FF9211916B6005BCFE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7709000211916B6005BCFE4;
+			remoteInfo = MonsterTown;
+		};
+		D7709021211916B8005BCFE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7708FF9211916B6005BCFE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7709000211916B6005BCFE4;
+			remoteInfo = MonsterTown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7709001211916B6005BCFE4 /* MonsterTown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterTown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7709004211916B6005BCFE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7709006211916B6005BCFE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7709009211916B6005BCFE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D770900B211916B7005BCFE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D770900E211916B7005BCFE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7709010211916B7005BCFE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7709015211916B7005BCFE4 /* MonsterTownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterTownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7709019211916B7005BCFE4 /* MonsterTownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterTownTests.swift; sourceTree = "<group>"; };
+		D770901B211916B7005BCFE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7709020211916B8005BCFE4 /* MonsterTownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterTownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7709024211916B8005BCFE4 /* MonsterTownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterTownUITests.swift; sourceTree = "<group>"; };
+		D7709026211916B8005BCFE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77090322119173A005BCFE4 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7708FFE211916B6005BCFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7709012211916B7005BCFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D770901D211916B8005BCFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7708FF8211916B6005BCFE4 = {
+			isa = PBXGroup;
+			children = (
+				D7709003211916B6005BCFE4 /* MonsterTown */,
+				D7709018211916B7005BCFE4 /* MonsterTownTests */,
+				D7709023211916B8005BCFE4 /* MonsterTownUITests */,
+				D7709002211916B6005BCFE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7709002211916B6005BCFE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7709001211916B6005BCFE4 /* MonsterTown.app */,
+				D7709015211916B7005BCFE4 /* MonsterTownTests.xctest */,
+				D7709020211916B8005BCFE4 /* MonsterTownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7709003211916B6005BCFE4 /* MonsterTown */ = {
+			isa = PBXGroup;
+			children = (
+				D7709004211916B6005BCFE4 /* AppDelegate.swift */,
+				D7709006211916B6005BCFE4 /* ViewController.swift */,
+				D77090322119173A005BCFE4 /* Town.swift */,
+				D7709008211916B6005BCFE4 /* Main.storyboard */,
+				D770900B211916B7005BCFE4 /* Assets.xcassets */,
+				D770900D211916B7005BCFE4 /* LaunchScreen.storyboard */,
+				D7709010211916B7005BCFE4 /* Info.plist */,
+			);
+			path = MonsterTown;
+			sourceTree = "<group>";
+		};
+		D7709018211916B7005BCFE4 /* MonsterTownTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7709019211916B7005BCFE4 /* MonsterTownTests.swift */,
+				D770901B211916B7005BCFE4 /* Info.plist */,
+			);
+			path = MonsterTownTests;
+			sourceTree = "<group>";
+		};
+		D7709023211916B8005BCFE4 /* MonsterTownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7709024211916B8005BCFE4 /* MonsterTownUITests.swift */,
+				D7709026211916B8005BCFE4 /* Info.plist */,
+			);
+			path = MonsterTownUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7709000211916B6005BCFE4 /* MonsterTown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7709029211916B8005BCFE4 /* Build configuration list for PBXNativeTarget "MonsterTown" */;
+			buildPhases = (
+				D7708FFD211916B6005BCFE4 /* Sources */,
+				D7708FFE211916B6005BCFE4 /* Frameworks */,
+				D7708FFF211916B6005BCFE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsterTown;
+			productName = MonsterTown;
+			productReference = D7709001211916B6005BCFE4 /* MonsterTown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7709014211916B7005BCFE4 /* MonsterTownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D770902C211916B8005BCFE4 /* Build configuration list for PBXNativeTarget "MonsterTownTests" */;
+			buildPhases = (
+				D7709011211916B7005BCFE4 /* Sources */,
+				D7709012211916B7005BCFE4 /* Frameworks */,
+				D7709013211916B7005BCFE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7709017211916B7005BCFE4 /* PBXTargetDependency */,
+			);
+			name = MonsterTownTests;
+			productName = MonsterTownTests;
+			productReference = D7709015211916B7005BCFE4 /* MonsterTownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D770901F211916B8005BCFE4 /* MonsterTownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D770902F211916B8005BCFE4 /* Build configuration list for PBXNativeTarget "MonsterTownUITests" */;
+			buildPhases = (
+				D770901C211916B8005BCFE4 /* Sources */,
+				D770901D211916B8005BCFE4 /* Frameworks */,
+				D770901E211916B8005BCFE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7709022211916B8005BCFE4 /* PBXTargetDependency */,
+			);
+			name = MonsterTownUITests;
+			productName = MonsterTownUITests;
+			productReference = D7709020211916B8005BCFE4 /* MonsterTownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7708FF9211916B6005BCFE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Charles Nolan";
+				TargetAttributes = {
+					D7709000211916B6005BCFE4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D7709014211916B7005BCFE4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D7709000211916B6005BCFE4;
+					};
+					D770901F211916B8005BCFE4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D7709000211916B6005BCFE4;
+					};
+				};
+			};
+			buildConfigurationList = D7708FFC211916B6005BCFE4 /* Build configuration list for PBXProject "MonsterTown" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7708FF8211916B6005BCFE4;
+			productRefGroup = D7709002211916B6005BCFE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7709000211916B6005BCFE4 /* MonsterTown */,
+				D7709014211916B7005BCFE4 /* MonsterTownTests */,
+				D770901F211916B8005BCFE4 /* MonsterTownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7708FFF211916B6005BCFE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D770900F211916B7005BCFE4 /* LaunchScreen.storyboard in Resources */,
+				D770900C211916B7005BCFE4 /* Assets.xcassets in Resources */,
+				D770900A211916B6005BCFE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7709013211916B7005BCFE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D770901E211916B8005BCFE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7708FFD211916B6005BCFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77090332119173A005BCFE4 /* Town.swift in Sources */,
+				D7709007211916B6005BCFE4 /* ViewController.swift in Sources */,
+				D7709005211916B6005BCFE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7709011211916B7005BCFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D770901A211916B7005BCFE4 /* MonsterTownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D770901C211916B8005BCFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7709025211916B8005BCFE4 /* MonsterTownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7709017211916B7005BCFE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7709000211916B6005BCFE4 /* MonsterTown */;
+			targetProxy = D7709016211916B7005BCFE4 /* PBXContainerItemProxy */;
+		};
+		D7709022211916B8005BCFE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7709000211916B6005BCFE4 /* MonsterTown */;
+			targetProxy = D7709021211916B8005BCFE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7709008211916B6005BCFE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7709009211916B6005BCFE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D770900D211916B7005BCFE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D770900E211916B7005BCFE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7709027211916B8005BCFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7709028211916B8005BCFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D770902A211916B8005BCFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 485ZBS428L;
+				INFOPLIST_FILE = MonsterTown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleswilliamnolan.MonsterTown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D770902B211916B8005BCFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 485ZBS428L;
+				INFOPLIST_FILE = MonsterTown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleswilliamnolan.MonsterTown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D770902D211916B8005BCFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 485ZBS428L;
+				INFOPLIST_FILE = MonsterTownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleswilliamnolan.MonsterTownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsterTown.app/MonsterTown";
+			};
+			name = Debug;
+		};
+		D770902E211916B8005BCFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 485ZBS428L;
+				INFOPLIST_FILE = MonsterTownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleswilliamnolan.MonsterTownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsterTown.app/MonsterTown";
+			};
+			name = Release;
+		};
+		D7709030211916B8005BCFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 485ZBS428L;
+				INFOPLIST_FILE = MonsterTownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleswilliamnolan.MonsterTownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonsterTown;
+			};
+			name = Debug;
+		};
+		D7709031211916B8005BCFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 485ZBS428L;
+				INFOPLIST_FILE = MonsterTownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleswilliamnolan.MonsterTownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonsterTown;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7708FFC211916B6005BCFE4 /* Build configuration list for PBXProject "MonsterTown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7709027211916B8005BCFE4 /* Debug */,
+				D7709028211916B8005BCFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7709029211916B8005BCFE4 /* Build configuration list for PBXNativeTarget "MonsterTown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D770902A211916B8005BCFE4 /* Debug */,
+				D770902B211916B8005BCFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D770902C211916B8005BCFE4 /* Build configuration list for PBXNativeTarget "MonsterTownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D770902D211916B8005BCFE4 /* Debug */,
+				D770902E211916B8005BCFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D770902F211916B8005BCFE4 /* Build configuration list for PBXNativeTarget "MonsterTownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7709030211916B8005BCFE4 /* Debug */,
+				D7709031211916B8005BCFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7708FF9211916B6005BCFE4 /* Project object */;
+}
